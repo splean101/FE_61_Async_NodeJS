@@ -1,0 +1,28 @@
+{
+  "name": "fe_61_async_nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "prod": "cross-env PORT=8000 NODE_ENV=production node app.js",
+    "dev": "cross-env NODE_ENV=development node app.js",
+
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/splean101/FE_61_Async_NodeJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/splean101/FE_61_Async_NodeJS/issues"
+  },
+  "homepage": "https://github.com/splean101/FE_61_Async_NodeJS#readme",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "express": "^4.18.2"
+  }
+}
